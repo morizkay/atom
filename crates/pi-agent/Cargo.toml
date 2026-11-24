@@ -1,0 +1,16 @@
+[package]
+name = "pi-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Built-in Pi Coding Agent for Atom GPUI: native 4-tool Rust core, tree-structured JSONL sessions, multi-provider streaming LLM client, and optional `pi --mode rpc` bridge"
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+futures.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+uuid.workspace = true

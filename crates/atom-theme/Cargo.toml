@@ -1,0 +1,10 @@
+[package]
+name = "atom-theme"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Authentic Atom One Dark and One Light themes for GPUI"
+
+[dependencies]
+gpui.workspace = true
+serde.workspace = true

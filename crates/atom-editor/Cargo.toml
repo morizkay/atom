@@ -1,0 +1,11 @@
+[package]
+name = "atom-editor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Rope-backed text buffer, editing operations, undo/redo history, and syntax highlighting for Atom GPUI"
+
+[dependencies]
+anyhow.workspace = true
+ropey.workspace = true
+serde.workspace = true
